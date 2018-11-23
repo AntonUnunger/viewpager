@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+
     class ViewPagerAdapter(manager: FragmentManager) : FragmentPagerAdapter(manager)
     {
         private val fragmentList : MutableList<Fragment> = ArrayList()
